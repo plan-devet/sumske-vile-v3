@@ -1139,8 +1139,62 @@ html {
     height: 6rem;
   }
 
+  .md\:h-1\/2 {
+    height: 50%;
+  }
+
+  .md\:h-96 {
+    height: 24rem;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
   .md\:min-h-96 {
     min-height: 24rem;
+  }
+
+  .md\:min-h-fit {
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+
+  .md\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  .md\:min-h-max {
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+
+  .md\:min-h-0\.5 {
+    min-height: 0.125rem;
+  }
+
+  .md\:min-h-svh {
+    min-height: 100svh;
+  }
+
+  .md\:min-h-lvh {
+    min-height: 100lvh;
+  }
+
+  .md\:min-h-dvh {
+    min-height: 100dvh;
+  }
+
+  .md\:min-h-\[50vh\] {
+    min-height: 50vh;
+  }
+
+  .md\:min-h-\[80vh\] {
+    min-height: 80vh;
+  }
+
+  .md\:min-h-\[70vh\] {
+    min-height: 70vh;
   }
 
   .md\:basis-1\/3 {
