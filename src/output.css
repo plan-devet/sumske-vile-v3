@@ -871,6 +871,11 @@ html {
   background-color: rgb(43 90 162 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-marine-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 77 128 / var(--tw-bg-opacity));
+}
+
 .hover\:text-sand-200:hover {
   --tw-text-opacity: 1;
   color: rgb(226 222 209 / var(--tw-text-opacity));
@@ -878,6 +883,10 @@ html {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 
 .focus\:outline-none:focus {
