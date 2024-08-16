@@ -471,9 +471,15 @@ h3 {
   line-height: 1.75rem;
 }
 
-/* a {
-      @apply underline decoration-dotted decoration-marine-500 decoration-2 underline-offset-4 ;
-    } */
+a {
+  text-decoration-color: #3073cf;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
 
 html {
   font-family: "Mulish", system-ui, sans-serif;
@@ -741,11 +747,6 @@ html {
   background-color: rgb(42 26 26 / var(--tw-bg-opacity));
 }
 
-.bg-marine-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 158 229 / var(--tw-bg-opacity));
-}
-
 .bg-marine-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(48 115 207 / var(--tw-bg-opacity));
@@ -754,10 +755,6 @@ html {
 .bg-sand-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 222 209 / var(--tw-bg-opacity));
-}
-
-.fill-marine-500 {
-  fill: #4c9ee5;
 }
 
 .fill-marine-700 {
@@ -842,19 +839,14 @@ html {
   color: rgb(57 181 74 / var(--tw-text-opacity));
 }
 
-.text-marine-500 {
+.text-marine-700 {
   --tw-text-opacity: 1;
-  color: rgb(76 158 229 / var(--tw-text-opacity));
+  color: rgb(48 115 207 / var(--tw-text-opacity));
 }
 
 .text-sand-200 {
   --tw-text-opacity: 1;
   color: rgb(226 222 209 / var(--tw-text-opacity));
-}
-
-.text-marine-700 {
-  --tw-text-opacity: 1;
-  color: rgb(48 115 207 / var(--tw-text-opacity));
 }
 
 .decoration-marine-500 {

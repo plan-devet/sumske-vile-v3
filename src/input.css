@@ -23,9 +23,9 @@
       @apply text-xl;
     }
 
-    /* a {
-      @apply underline decoration-dotted decoration-marine-500 decoration-2 underline-offset-4 ;
-    } */
+    a {
+      @apply hover:underline decoration-marine-700 decoration-2 underline-offset-2 ;
+    }
 
     html {
       font-family: "Mulish", system-ui, sans-serif;
