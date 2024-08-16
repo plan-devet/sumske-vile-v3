@@ -3,7 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: "Noto Serif", system-ui, sans-serif;
+    h1, h2, h3 {
+      font-family: 'Merriweather', serif;
     }
+
+    h1 {
+      @apply text-4xl;
+      @apply text-marine-700;
+      @apply font-bold;
+    }
+
+    h2 {
+      @apply text-3xl;
+      @apply text-marine-700;
+      @apply font-bold;
+    }
+
+    h3 {
+      @apply text-xl;
+    }
+
+    /* a {
+      @apply underline decoration-dotted decoration-marine-500 decoration-2 underline-offset-4 ;
+    } */
+
+    html {
+      font-family: "Mulish", system-ui, sans-serif;
+      @apply md:text-lg;
+    }
+
   }
