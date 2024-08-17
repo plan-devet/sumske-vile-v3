@@ -752,7 +752,7 @@ html {
   background-color: rgb(48 115 207 / var(--tw-bg-opacity));
 }
 
-.bg-sand-200 {
+.bg-sand-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 222 209 / var(--tw-bg-opacity));
 }
@@ -844,31 +844,9 @@ html {
   color: rgb(48 115 207 / var(--tw-text-opacity));
 }
 
-.text-sand-200 {
+.text-sand-100 {
   --tw-text-opacity: 1;
   color: rgb(226 222 209 / var(--tw-text-opacity));
-}
-
-.decoration-marine-500 {
-  text-decoration-color: #4c9ee5;
-}
-
-.decoration-2 {
-  text-decoration-thickness: 2px;
-}
-
-.underline-offset-4 {
-  text-underline-offset: 4px;
-}
-
-.hover\:bg-marine-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(48 115 207 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-marine-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(43 90 162 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-marine-900:hover {
@@ -876,13 +854,9 @@ html {
   background-color: rgb(40 77 128 / var(--tw-bg-opacity));
 }
 
-.hover\:text-sand-200:hover {
+.hover\:text-sand-100:hover {
   --tw-text-opacity: 1;
   color: rgb(226 222 209 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 .hover\:no-underline:hover {
@@ -935,10 +909,6 @@ html {
 
   .md\:basis-1\/3 {
     flex-basis: 33.333333%;
-  }
-
-  .md\:basis-full {
-    flex-basis: 100%;
   }
 
   .md\:flex-row {
