@@ -937,6 +937,10 @@ html {
     flex-basis: 33.333333%;
   }
 
+  .md\:basis-full {
+    flex-basis: 100%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
