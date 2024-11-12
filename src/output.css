@@ -844,6 +844,10 @@ html {
   text-align: center;
 }
 
+.align-super {
+  vertical-align: super;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -895,6 +899,42 @@ html {
 .text-sand-100 {
   --tw-text-opacity: 1;
   color: rgb(226 222 209 / var(--tw-text-opacity));
+}
+
+.text-dirt-200 {
+  --tw-text-opacity: 1;
+  color: rgb(224 208 200 / var(--tw-text-opacity));
+}
+
+.text-dirt-500 {
+  --tw-text-opacity: 1;
+  color: rgb(168 116 103 / var(--tw-text-opacity));
+}
+
+.text-dirt-300 {
+  --tw-text-opacity: 1;
+  color: rgb(204 177 165 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.\!no-underline {
+  text-decoration-line: none !important;
 }
 
 .hover\:bg-marine-900:hover {
